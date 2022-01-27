@@ -1,0 +1,23 @@
+:root {
+  /* colors */
+  --arrow-color: rgb(6, 124, 104);
+
+  --white-color: rgb(255, 255, 255, 1);
+  --black-color: rgba(0, 0, 0, 1);
+
+  --light-grey-color: rgba(198, 194, 194, 1);
+  --transperent-grey-color: rgba(196, 196, 196, 0.25);
+
+  --light-green-color: rgba(227, 245, 245, 1);
+
+  /* fonts */
+  --comforta-font: "Comfortaa", sans-serif;
+  --roboto-font: "Roboto", sans-serif;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
