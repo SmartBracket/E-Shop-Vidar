@@ -2,10 +2,11 @@
   display: inline-block;
   padding: 3px 0;
   text-align: center;
+  text-decoration: none;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  color: white;
+  color: var(--white-color);
 }
 
 .button_green {

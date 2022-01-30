@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Roboto:wght@300;400;700&family=Scada:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="blocks/style.css" />
@@ -90,10 +90,9 @@
       </div>
       <nav class="header-navbar">
         <div class="container header-navbar__container">
-          <!-- menu -->
           <ul class="header-navbar__menu">
-            <li class="header-navbar__item">
-              <a href="#" class="header-navbar__link"> Каталог</a>
+            <li class="header-navbar__item header-catalog">
+              <a href="#" class="header-navbar__link">Каталог</a>
             </li>
             <li class="header-navbar__item">
               <a href="#" class="header-navbar__link"> Контактная информация</a>
@@ -118,7 +117,7 @@
       </nav>
     </header>
     <main class="main">
-      <section class="hero">
+      <section class="main__section hero">
         <div class="container">
           <div class="hero-grid">
             <div class="big-baner">
@@ -211,11 +210,528 @@
               </div>
             </div>
           </div>
-          <!-- в hero-card добавить ограничения для размера текста в js -->
         </div>
       </section>
+      <!-- в big-baner сделать круговорот картинок -->
+      <!-- в hero-card добавить ограничения для размера текста в js -->
+
+      <section class="main__section news" onmouseenter="getSectionName(this)">
+        <div class="container">
+          <div class="showcase">
+            <h2 class="showcase__title">Новинки</h2>
+            <div class="showcase__list">
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">150 руб.</p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/climadion.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+
+                  <p class="card__title">
+                    Корега табл. для очищения зубных протезов 30 шт
+                  </p>
+                  <p class="card__price">150 руб.</p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">150 руб.</p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">150 руб.</p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">150 руб.</p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">150 руб.</p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">150 руб.</p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">150 руб.</p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-arrows">
+            <div class="arrow__priv showcase-arrows__arrow arrow">
+              <span class="arrow__line"></span>
+            </div>
+            <div
+              class="arrow__next showcase-arrows__arrow_right arrow arrow_right"
+            >
+              <span class="arrow__line"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section sale" onmouseenter="getSectionName(this)">
+        <div class="container">
+          <div class="showcase">
+            <h2 class="showcase__title">Распродажа</h2>
+            <div class="showcase__list">
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">
+                    150 руб. <span class="card__old-price">170 руб.</span>
+                  </p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">
+                    150 руб. <span class="card__old-price">170 руб.</span>
+                  </p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">
+                    150 руб. <span class="card__old-price">170 руб.</span>
+                  </p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">
+                    150 руб. <span class="card__old-price">170 руб.</span>
+                  </p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">
+                    150 руб. <span class="card__old-price">170 руб.</span>
+                  </p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">
+                    150 руб. <span class="card__old-price">170 руб.</span>
+                  </p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">
+                    150 руб. <span class="card__old-price">170 руб.</span>
+                  </p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+
+              <div class="showcase__card card">
+                <a href="#" class="card__link">
+                  <div class="card__img-block">
+                    <img
+                      src="media/items/urolesan.png"
+                      alt="urolesan"
+                      class="card__img"
+                    />
+                  </div>
+
+                  <p class="card__title">Уролесан 40 капсул</p>
+                  <p class="card__price">
+                    150 руб. <span class="card__old-price">170 руб.</span>
+                  </p>
+                </a>
+                <div class="card__ditails card__ditails_hiden">
+                  <a href="#" class="card__but button button_green">
+                    В корзину
+                  </a>
+                  <a href="#" class="card__but button button_purple">
+                    Подробнее
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-arrows">
+            <div class="arrow__priv showcase-arrows__arrow arrow">
+              <span class="arrow__line"></span>
+            </div>
+            <div
+              class="arrow__next showcase-arrows__arrow_right arrow arrow_right"
+            >
+              <span class="arrow__line"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer__logo logo">
+              <a href="#" class="logo__link"
+                ><img
+                  class="logo__img"
+                  src="media/interface/logo.svg"
+                  alt="logo"
+                />
+                <p class="logo__text">Vidar</p>
+              </a>
+              <div class="footer__copy">© 2021<br />Интернет-аптека</div>
+            </div>
+            <nav class="footer_nav">
+              <p class="footer-nav__title">Каталог</p>
+              <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link"
+                    >Пищеварительная система и обмен веществ</a
+                  >
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link"
+                    >Сердечно-сосудистая система</a
+                  >
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">Мочеполовая система</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">Нервная система</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">Респираторная система</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">Органы чувств</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">Кроветворение и кровь</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="footer-nav">
+              <p class="footer-nav__title">Клиентам</p>
+              <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">Вход в личный кабинет</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">О нас</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">Оплата и выкуп</a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">Контактная информация</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="footer-nav">
+              <p class="footer-nav__title">Контактная информация</p>
+              <ul class="footer-nav__list">
+                <li class="footer-nav__item tel">
+                  <img
+                    src="media/interface/icons/tel-icon.svg"
+                    alt="telephone"
+                    class="tel__img"
+                  />
+                  <a href="tel:0442845080" class="tel__number">044 284-50-80</a>
+                </li>
+                <li class="footer-nav__item mail">
+                  <img
+                    src="media/interface/icons/mail-icon.svg"
+                    alt="mail"
+                    class="mail__img"
+                  />
+                  <a href="mailto:e-mail@mail.ru" class="mail__link"
+                    >e-mail@mail.ru</a
+                  >
+                </li>
+                <li class="footer-nav__item geo">
+                  <img
+                    src="media/interface/icons/adres-icon.svg"
+                    alt="position"
+                    class="geo__img"
+                  />
+                  <p class="geo_adress">Г.Луганск 50 лет Октября 20</p>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
     </main>
     <!-- scripts -->
     <script src="blocks/hero/big-baner.js"></script>
+    <script src="blocks/card/card-show-details.js"></script>
+    <script src="blocks/showcase/showcase-slider.js"></script>
   </body>
 </html>

@@ -7,11 +7,17 @@
 @import url(soc/soc.css);
 @import url(arrow/arrow.css);
 @import url(button/button.css);
+@import url(card/card.css);
+@import url(showcase/showcase.css);
+@import url(showcase/showcase-arrows.css);
+@import url(mail/mail.css);
+@import url(geo/geo.css);
 
 @import url(container/container.css);
 /* header */
 @import url(header/header.css);
 @import url(header/header-navbar.css);
+@import url(header/header-catalog.css);
 /* main */
 @import url(main/main.css);
 /* hero */
@@ -19,3 +25,9 @@
 @import url(hero/hero-grid.css);
 @import url(hero/big-baner.css);
 @import url(hero/hero-card.css);
+/* news-sale */
+@import url(news/news.css);
+/* footer */
+@import url(footer/footer.css);
+@import url(footer/footer-nav.css);
+@import url(footer/footer-grid.css);

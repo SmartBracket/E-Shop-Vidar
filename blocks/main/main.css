@@ -1,3 +1,6 @@
-.main {
-  margin: 35px 0;
+.main__section {
+  margin-top: 35px;
+}
+.main__section:last-of-type {
+  margin-bottom: 35px;
 }

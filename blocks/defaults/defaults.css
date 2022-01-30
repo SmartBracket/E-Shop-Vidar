@@ -13,11 +13,20 @@
   /* fonts */
   --comforta-font: "Comfortaa", sans-serif;
   --roboto-font: "Roboto", sans-serif;
+  --scada-font: "Scada", sans-serif;
 }
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+body {
+  min-height: 100vh;
+}
 p {
   margin: 0;
+}
+
+.hidden {
+  display: none;
 }
