@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Roboto:wght@300;400;700&family=Scada:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="blocks/style.css" />
+    <title>Vidar</title>
+  </head>
+  <body>
+    <main class="main__section" style="height: 1000px">
+      <div class="container">
+        <section class="poduct">
+          <div class="product__left-block">
+            <div class="product__image-block">
+              <picture class="product__picture-el">
+                <source
+                  class="product__image"
+                  srcset="media/items/urolesanX2.png"
+                  media="(min-width: 700px)"
+                />
+                <img
+                  class="product__image"
+                  src="media/items/urolesan.png"
+                  alt=""
+                />
+              </picture>
+            </div>
+            <div class="product__add-to-basket">
+              <div class="product__add-to-basket-count">
+                <p class="product__add-to-basket-title">Количетсво</p>
+                <div class="product__add-to-basket-input-block">
+                  <div class="product__add-to-basket-circle reduce">-</div>
+                  <input
+                    type="text"
+                    class="product__add-to-basket-input"
+                    value="1"
+                  />
+                  <div class="product__add-to-basket-circle add">+</div>
+                </div>
+              </div>
+              <a href="#" class="product__add-to-basket-link">
+                <div class="product__add-to-basket-button button button_green">
+                  В корзину
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="product__info-block-grid-cell">
+            <div class="product__info-block-wrapper">
+              <div class="product__info-block">
+                <nav class="breadcrumb">
+                  Категории -> Простуда и грипп -> От кашля и боли в горле
+                </nav>
+                <h1 class="product__title">Климадион 50 шт.</h1>
+                <p class="product__price">200 руб.</p>
+                <div class="product__info-panel info-panel">
+                  <div class="info-panel__names-block">
+                    <div
+                      class="info-panel__names-item info-panel__names-item_active"
+                    >
+                      <span class="info-panel__names-item-title">Cостав</span>
+
+                      <div class="info-panel__names-item-content-hiden">
+                        Повышенная чувствительность к компонентам лекарственного
+                        средства, другим салицилатам; тяжелые нарушения функции
+                        печени и/или почек, врожденная гипербилирубинемия,
+                        синдром Жильбера, дефицит глюкозо-6-фосфатдегидрогеназы,
+                        алкоголизм, заболевания крови, гемофилия,
+                        геморрагический диатез, выраженная анемия, лейкопения,
+                        тромбоз, тромбофлебит, геморрагические болезни, острые
+                        пептические язвы, состояние повышенного возбуждения,
+                        нарушения сна.
+                      </div>
+                    </div>
+                    <div class="info-panel__names-item">
+                      <span class="info-panel__names-item-title"
+                        >Рекомендации</span
+                      >
+                      <div class="info-panel__names-item-content-hiden">
+                        Не применять вместе с ингибиторами моноаминоксидазы
+                        (МАО) и в течение 2 недель после отмены ингибиторов МАО;
+                        противопоказан пациентам, принимающим трициклические
+                        антидепрессанты, b-блокаторы; противопоказана комбинация
+                        с метотрексатом в дозе 15 мг/неделю или больше (см.
+                        «Взаимодействие с другими лекарственными средствами и
+                        другие виды взаимодействий»).
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info-panel__content-block"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="blocks/product/productAddToBasket.js"></script>
+    <script src="blocks/info-panel/info-panel.js"></script>
+  </body>
+</html>
